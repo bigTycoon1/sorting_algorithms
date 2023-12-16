@@ -9,13 +9,13 @@
  */
 void bubble_sort(int *array, size_t size)
 {
-	size_t i, m;
+	size_t i, n;
 	int tmp, swap;
 
-	for (m = size, swap = 1; m > 0 && swap; m--)
+	for (n = size, swap = 1; n > 0 && swap; n--)
 	{
 		swap = 0;
-		for (i = 0; (i + 1) < m; i++)
+		for (i = 0; (i + 1) < n; i++)
 		{
 			if (array[i] > array[i + 1])
 			{
