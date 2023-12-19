@@ -12,7 +12,7 @@ void quick_sort(int *array, size_t size)
 }
 
 /**
- * _qsort - quick_sort auxiliar functio
+ * _qsort - quick_sort sub function
  * @a: input of an arrray
  * @low: the first element
  * @high: the last element
