@@ -23,7 +23,7 @@ void shell_sort(int *array, size_t size)
  * @n:  intervale
  *
  * Return: nothing to return
- */ 
+ */
 void _ssort(int *a, int size, int n)
 {
 	int tmp, x, y;
